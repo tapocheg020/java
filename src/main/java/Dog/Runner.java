@@ -11,8 +11,10 @@ public class Runner {
 
         dogOne.walkingOnStreet("Ильей");
         System.out.println("\n");
-        dogTwo.walkingOnStreet("новым хозяином");
+        dogTwo.walkingOnStreet("новым хозяином\n");
 
+        Dog dogThree = new Dog();
+        System.out.println(dogThree);
     }
 
 

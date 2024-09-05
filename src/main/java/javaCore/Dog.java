@@ -1,4 +1,6 @@
-package Dog;
+package javaCore;
+
+import java.util.Arrays;
 
 public class Dog {
 
@@ -20,6 +22,10 @@ public class Dog {
 
     public void walkingOnStreet (String withOwnerName) {
         System.out.printf("Яна гуляет по улице вместе с %s", withOwnerName);
+    }
+
+    public void feed(String giver, String ...product){
+        System.out.printf("Человек %s дает еду:Собака %s сьел", giver, Arrays.toString(product));
     }
 
     @Override
