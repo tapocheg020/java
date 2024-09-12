@@ -15,5 +15,13 @@ public class Terier extends Dog{
         System.out.println("Да пох терьер дышит не дышит поебать\n");
     }
 
+    public void beAngry(){
+        System.out.println("-------------------------------");
+        System.out.println("Терьер увидел какого то котэка");
+        super.beAngry();
+        System.out.println("Кот убежал, терьер перестал рычать.");
+        System.out.println("-------------------------------");
+    }
+
 
 }

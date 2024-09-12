@@ -7,6 +7,7 @@ public class Runner {
         poodle.brake();
         poodle.getCountLegs();
         poodle.run();
+        poodle.beAngry();
         System.out.println(poodle.countTeeth);
         poodle.breath();
 
@@ -15,6 +16,7 @@ public class Runner {
         shepherd.brake();
         shepherd.getCountLegs();
         shepherd.run();
+        shepherd.beAngry();
         System.out.println(shepherd.countTeeth);
         shepherd.breath();
 
@@ -22,6 +24,7 @@ public class Runner {
         terier.brake();
         terier.getCountLegs();
         terier.run();
+        terier.beAngry();
         System.out.println(terier.countTeeth);
         terier.breath();
 

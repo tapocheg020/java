@@ -19,4 +19,8 @@ public abstract class Dog extends Alive {
     }
 
     public abstract void run();
+
+    public void beAngry(){
+        System.out.println("Собака бляха злится и рычит как сука");
+    }
 }
